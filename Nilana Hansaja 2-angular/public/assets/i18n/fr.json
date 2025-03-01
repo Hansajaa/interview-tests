@@ -1,0 +1,68 @@
+{
+  "navbar": {
+    "title": "Centre de Service Hub",
+    "home": "Accueil",
+    "addCar": "Ajouter une voiture",
+    "addJob": "Ajouter un travail",
+    "dashboard": "Tableau de bord",
+    "languages": "Langues"
+  },
+  "home": {
+    "title": "Centre de Service Hub",
+    "description": "Bienvenue sur le Centre de Service Hub – votre plateforme exclusive conçue pour notre équipe du centre de service. Gérez les opérations quotidiennes, suivez les performances et collaborez en toute transparence pour offrir un service exceptionnel chaque jour.",
+    "getStart": "Commencer"
+  },
+  "buttons": {
+    "addCar": "Ajouter une voiture",
+    "editDetails": "Modifier les détails",
+    "delete": "Supprimer",
+    "addJob": "Ajouter un travail",
+    "editJob": "Modifier le travail",
+    "markAsDone": "Marquer comme terminé"
+  },
+  "breadCrumbs": {
+    "home": "Accueil",
+    "addCar": "Ajouter une voiture",
+    "addJob": "Ajouter un travail",
+    "dashboard": "Tableau de bord"
+  },
+  "placeholders": {
+    "make": "Marque",
+    "model": "Modèle",
+    "manifaturingYear": "Année de fabrication",
+    "licensePlate": "Plaque d'immatriculation",
+    "ownerName": "Nom du propriétaire",
+    "ownerContactNumber": "Numéro de contact du propriétaire",
+    "selectJob": "Sélectionner un travail",
+    "jobDesc": "Description du travail",
+    "selectJobStatus": "Sélectionner le statut du travail",
+    "selectLicensePlate": "Sélectionner une plaque d'immatriculation",
+    "Rs.": "Rs.",
+    "cost": "Coût",
+    "jobNote": "Remarque sur le travail"
+  },
+  "tableHeadings": {
+    "id": "ID",
+    "make": "Marque",
+    "model": "Modèle",
+    "manifaturingYear": "Année de fabrication",
+    "licensePlate": "Plaque d'immatriculation",
+    "ownerName": "Nom du propriétaire",
+    "ownerContactNumber": "Numéro de contact du propriétaire",
+    "cardID": "ID de la carte",
+    "job": "Travail",
+    "status": "Statut",
+    "licenseNo": "Numéro de licence du véhicule",
+    "cost": "Coût (Rs.)",
+    "note": "Remarque"
+  },
+  "dashboard": {
+    "carsInServiceCenter": "Voitures au centre de service",
+    "jobsInProgress": "Travaux en cours",
+    "completedJobs": "Travaux terminés",
+    "jobStatus": "Statut du travail",
+    "fiveDaysJobCompletion": "Achèvement des travaux en 5 jours",
+    "fiveDaysIncome": "Revenu sur 5 jours"
+  }
+
+}

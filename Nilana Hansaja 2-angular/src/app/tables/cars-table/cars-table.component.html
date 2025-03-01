@@ -1,0 +1,29 @@
+<div class="overflow-x-auto">
+  <table class="table">
+    <!-- head -->
+    <thead>
+      <tr>
+        <th>{{'tableHeadings.id' | translate}}</th>
+        <th>{{'tableHeadings.make' | translate}}</th>
+        <th>{{'tableHeadings.model' | translate}}</th>
+        <th>{{'tableHeadings.manifaturingYear' | translate}}</th>
+        <th>{{'tableHeadings.licensePlate' | translate}}</th>
+        <th>{{'tableHeadings.ownerName' | translate}}</th>
+        <th>{{'tableHeadings.ownerContactNumber' | translate}}</th>
+      </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let car of cars">
+          <th>{{car.id}}</th>
+          <td>{{car.make}}</td>
+          <td>{{car.model}}</td>
+          <td>{{car.year}}</td>
+          <td>{{car.licensePlate}}</td>
+          <td>{{car.ownerName}}</td>
+          <td>{{car.ownerNo}}</td>
+          <td><button class="btn btn-warning">{{'buttons.editDetails' | translate}}</button></td>
+          <td><button class="btn btn-error">{{'buttons.delete' | translate}}</button></td>
+        </tr> 
+    </tbody>
+  </table>
+</div>

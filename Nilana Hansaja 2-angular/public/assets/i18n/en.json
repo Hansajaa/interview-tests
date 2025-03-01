@@ -1,0 +1,67 @@
+{
+  "navbar": {
+    "title": "Service Center Hub",
+    "home": "Home",
+    "addCar": "Add a Car",
+    "addJob": "Add a Job",
+    "dashboard": "Dashboard",
+    "languages": "Languages"
+  },
+  "home":{
+    "title":"Service Center Hub",
+    "description": "Welcome to the Service Center Hub – your exclusive platform designed for our service center team. Manage daily operations, track performance, and collaborate seamlessly to deliver exceptional service every day.",
+    "getStart": "Get Started"
+  },
+  "buttons":{
+    "addCar":"Add a car",
+    "editDetails": "Edit Details",
+    "delete": "Delete",
+    "addJob": "Add a Job",
+    "editJob": "Edit the Job",
+    "markAsDone": "Mark As Done"
+  },
+  "breadCrumbs":{
+    "home":"Home",
+    "addCar":"Add a Car",
+    "addJob":"Add a Job",
+    "dashboard": "Dashboard"
+  },
+  "placeholders":{
+    "make": "Make",
+    "model": "Model",
+    "manifaturingYear": "Manifacturing Year",
+    "licensePlate": "License Plate",
+    "ownerName":"Owner Name",
+    "ownerContactNumber": "Owner Contact Number",
+    "selectJob":"Select a Job",
+    "jobDesc": "Job description",
+    "selectJobStatus":"Select Job Status",
+    "selectLicensePlate":"Select a Car License Plate",
+    "Rs.": "Rs.",
+    "cost":"Cost",
+    "jobNote":"Job Note"
+  },
+  "tableHeadings":{
+    "id": "ID",
+    "make": "Make",
+    "model": "Model",
+    "manifaturingYear": "Manifacturing Year",
+    "licensePlate": "License Plate",
+    "ownerName":"Owner Name",
+    "ownerContactNumber": "Owner Contact No",
+    "cardID":"Card ID",
+    "job": "Job",
+    "status": "Status",
+    "licenseNo": "Car License No",
+    "cost":"Cost (Rs.)",
+    "note":"Note"
+  },
+  "dashboard":{
+    "carsInServiceCenter": "Cars in Service Center",
+    "jobsInProgress": "Jobs in Progress",
+    "completedJobs": "Completed Jobs",
+    "jobStatus": "Job Status",
+    "fiveDaysJobCompletion": "5-Day Job Completion",
+    "fiveDaysIncome": "5-Day Income"
+  }
+}

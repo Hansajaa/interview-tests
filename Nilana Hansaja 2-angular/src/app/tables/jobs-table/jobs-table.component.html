@@ -1,0 +1,39 @@
+<div class="overflow-x-auto">
+  <table class="table">
+    <!-- head -->
+    <thead>
+      <tr>
+        <th>{{'tableHeadings.cardID' | translate}}</th>
+        <th>{{'tableHeadings.job' | translate}}</th>
+        <th>{{'tableHeadings.status' | translate}}</th>
+        <th>{{'tableHeadings.licenseNo' | translate}}</th>
+        <th>{{'tableHeadings.cost' | translate}}</th>
+        <th>{{'tableHeadings.note' | translate}}</th>
+      </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let job of jobs">
+          <th>{{job.cardID}}</th>
+          <td>{{job.Job}}</td>
+          <td>
+            <!-- Job Status selector -->
+            <div>
+              <!-- md -->
+              <select class="select select-bordered w-full max-w-2xl">
+                <option disabled selected>{{job.currentStatus}}</option>
+                @for(status of statuses; track $index){
+                  <option>{{status}}</option>
+                }
+              </select>
+            </div>
+          </td>
+          <td>{{job.licensePlate}}</td>
+          <td>{{job.cost}}</td>
+          <td>{{job.note}}</td>
+          <td><button class="btn btn-warning">{{'buttons.editJob' | translate}}</button></td>
+          <td><button class="btn btn-success">{{'buttons.markAsDone' | translate}}</button></td>
+          <td><button class="btn btn-error">{{'buttons.delete' | translate}}</button></td>
+        </tr>
+    </tbody>
+  </table>
+</div>

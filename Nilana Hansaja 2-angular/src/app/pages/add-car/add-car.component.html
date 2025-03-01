@@ -1,0 +1,62 @@
+<div class="grid grid-cols-1 mt-20">
+  <!-- breadcrumb -->
+  <div class="breadcrumbs text-sm ml-10 mb-5">
+    <ul>
+      <li><a routerLink='/' routerLinkActive="router-link-active" >{{'breadCrumbs.home' | translate}}</a></li>
+      <li>{{'breadCrumbs.addCar' | translate}}</li>
+    </ul>
+  </div>
+
+  <div class="mx-10 grid lg:grid-cols-2 gap-10 mt-10">
+    <!-- car make input -->
+    <div>
+      <label class="input input-bordered flex items-center">
+        <input type="text" class="grow" [placeholder]="'placeholders.make' | translate" />
+      </label>
+    </div>
+
+    <!-- car model input -->
+    <div>
+      <label class="input input-bordered flex items-center">
+        <input type="text" class="grow" [placeholder]="'placeholders.model' | translate" />
+      </label>
+    </div>
+
+    <!-- car Manifacturing Year input -->
+    <div>
+      <label class="input input-bordered flex items-center">
+        <input type="number" class="grow" [placeholder]="'placeholders.manifaturingYear' | translate" />
+      </label>
+    </div>
+
+    <!-- car licensePlate input -->
+    <div>
+      <label class="input input-bordered flex items-center">
+        <input type="text" class="grow" [placeholder]="'placeholders.licensePlate' | translate" />
+      </label>
+    </div>
+
+    <!-- car Owner name input -->
+    <div>
+      <label class="input input-bordered flex items-center">
+        <input type="text" class="grow" [placeholder]="'placeholders.ownerName' | translate" />
+      </label>
+    </div>
+
+    <!-- car Owner contact number input -->
+    <div>
+      <label class="input input-bordered flex items-center">
+        <input type="text" class="grow" [placeholder]="'placeholders.ownerContactNumber' | translate" />
+      </label>
+    </div>
+  </div>
+
+  <div class="flex justify-end mt-10 mr-10">
+    <button class="btn btn-neutral">{{'buttons.addCar' | translate}}</button>
+  </div>
+
+  <div class="divider divider-neutral mt-10"></div>
+  
+  <!-- added cars table -->
+   <app-cars-table class="mt-10"></app-cars-table>
+</div>

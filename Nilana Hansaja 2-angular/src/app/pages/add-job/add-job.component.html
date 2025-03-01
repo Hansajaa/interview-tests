@@ -1,0 +1,83 @@
+<div class="grid grid-cols-1 mt-20">
+  <!-- breadcrumb -->
+  <div class="breadcrumbs text-sm ml-10 mb-5">
+    <ul>
+      <li><a routerLink="/">{{'breadCrumbs.home' | translate}}</a></li>
+      <li>{{'breadCrumbs.addJob' | translate}}</li>
+    </ul>
+  </div>
+
+  <div class="mx-10 grid lg:grid-cols-2 gap-10 mt-10">
+    <!-- Card ID -->
+    <div>
+      <label class="input input-bordered flex items-center">
+        <input
+          disabled
+          value="CRD00000001"
+          type="text"
+          class="grow"
+          placeholder="Card ID"
+        />
+      </label>
+    </div>
+
+    <!-- Job selector -->
+    <div>
+      <!-- md -->
+      <select class="select select-bordered w-full max-w-2xl">
+        <option disabled selected>{{'placeholders.selectJob' | translate}}</option>
+        <option *ngFor="let jobType of jobTypes" [value]="jobType">{{ jobType }}</option>
+      </select>
+    </div>
+
+    <!-- job description input -->
+    <div>
+      <textarea
+        class="textarea textarea-bordered w-full max-w-2xl h-10"
+        [placeholder]="'placeholders.jobDesc' | translate"
+      ></textarea>
+    </div>
+
+    <!-- Job Status selector -->
+    <div>
+      <!-- md -->
+      <select class="select select-bordered w-full max-w-2xl">
+        <option disabled selected>{{'placeholders.selectJobStatus' | translate}}</option>
+        <option *ngFor="let status of statuses" [value]="status">{{ status }}</option>
+      </select>
+    </div>
+
+    <!-- Car License Plate selector -->
+    <div>
+      <!-- md -->
+      <select class="select select-bordered w-full max-w-2xl">
+        <option disabled selected>{{'placeholders.selectLicensePlate' | translate}}</option>
+        <option *ngFor="let car of cars" [value]="car">{{car.licensePlate}}</option>
+      </select>
+    </div>
+
+    <!-- Job Cost -->
+    <div>
+      <label class="input input-bordered flex items-center gap-2">
+        <span>{{'placeholders.Rs.' | translate}}</span>
+        <input type="number" class="grow" [placeholder]="'placeholders.cost' | translate" />
+      </label>
+    </div>
+
+    <!-- job note input -->
+    <div>
+      <label class="input input-bordered flex items-center gap-2">
+        <input type="text" class="grow" [placeholder]="'placeholders.jobNote' | translate"  />
+      </label>
+    </div>
+  </div>
+
+  <div class="flex justify-end mt-10 mr-10">
+    <button class="btn btn-neutral">{{'buttons.addJob' | translate}}</button>
+  </div>
+
+  <div class="divider divider-neutral mt-10"></div>
+
+  <!-- added job table -->
+  <app-jobs-table></app-jobs-table>
+</div>

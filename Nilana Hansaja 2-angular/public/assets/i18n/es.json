@@ -1,0 +1,67 @@
+{
+  "navbar": {
+    "title": "Centro de Servicio Hub",
+    "home": "Inicio",
+    "addCar": "Agregar un coche",
+    "addJob": "Agregar un trabajo",
+    "dashboard": "Panel de control",
+    "languages": "Idiomas"
+  },
+  "home": {
+    "title": "Centro de Servicio Hub",
+    "description": "Bienvenido al Centro de Servicio Hub, tu plataforma exclusiva diseñada para nuestro equipo del centro de servicio. Gestiona las operaciones diarias, haz seguimiento del rendimiento y colabora sin problemas para ofrecer un servicio excepcional cada día.",
+    "getStart": "Comenzar"
+  },
+  "buttons": {
+    "addCar": "Agregar un coche",
+    "editDetails": "Editar detalles",
+    "delete": "Eliminar",
+    "addJob": "Agregar un trabajo",
+    "editJob": "Editar el trabajo",
+    "markAsDone": "Marcar como hecho"
+  },
+  "breadCrumbs": {
+    "home": "Inicio",
+    "addCar": "Agregar un coche",
+    "addJob": "Agregar un trabajo",
+    "dashboard": "Panel de control"
+  },
+  "placeholders": {
+    "make": "Marca",
+    "model": "Modelo",
+    "manifaturingYear": "Año de fabricación",
+    "licensePlate": "Matrícula",
+    "ownerName": "Nombre del propietario",
+    "ownerContactNumber": "Número de contacto del propietario",
+    "selectJob": "Seleccionar un trabajo",
+    "jobDesc": "Descripción del trabajo",
+    "selectJobStatus": "Seleccionar el estado del trabajo",
+    "selectLicensePlate": "Seleccionar una matrícula",
+    "Rs.": "Rs.",
+    "cost": "Costo",
+    "jobNote": "Nota del trabajo"
+  },
+  "tableHeadings": {
+    "id": "ID",
+    "make": "Marca",
+    "model": "Modelo",
+    "manifaturingYear": "Año de fabricación",
+    "licensePlate": "Matrícula",
+    "ownerName": "Nombre del propietario",
+    "ownerContactNumber": "Número de contacto del propietario",
+    "cardID": "ID de tarjeta",
+    "job": "Trabajo",
+    "status": "Estado",
+    "licenseNo": "Número de licencia del coche",
+    "cost": "Costo (Rs.)",
+    "note": "Nota"
+  },
+  "dashboard": {
+    "carsInServiceCenter": "Coches en el centro de servicio",
+    "jobsInProgress": "Trabajos en progreso",
+    "completedJobs": "Trabajos completados",
+    "jobStatus": "Estado del trabajo",
+    "fiveDaysJobCompletion": "Finalización del trabajo en 5 días",
+    "fiveDaysIncome": "Ingreso de 5 días"
+  }
+}
